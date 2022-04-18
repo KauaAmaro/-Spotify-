@@ -1,0 +1,135 @@
+
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+                background-attachment: fixed;
+}
+
+.right{
+    float: right;
+    margin-left: 800px;
+}
+
+.nav-bar-transp{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler{
+    color: white;
+}
+
+.divisor{
+    background: white ;
+    width: 1px;
+    margin: 12px 15px;
+}
+
+.capa{
+  text-align: center;
+}
+
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+
+.btn-roxo{
+    background: #CA09C1;
+    border-radius: 500px;
+    color: white;
+}
+   
+.btn-roxo:hover{
+    background: #B804B0;
+    color: white;
+}
+
+
+.btn-branco{
+    border-radius: 500px;
+    border: 2px solid white;
+    color: white;
+}
+   
+.btn-branco:hover{
+    background: white;
+    color: black;
+}
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0 10px 0;
+}
+
+#servicos h2, h3 {
+    color: #7c26f8;
+}
+
+#recursos h3 {
+    color: #9bf0e1 ;
+}
+
+#recursos h2 {
+    color: white ;
+}
+
+#recursos p {
+    color: white;
+}
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04en;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04en;
+}
+
+.rotation{
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);;
+    transform: rotate(30deg);
+
+}
